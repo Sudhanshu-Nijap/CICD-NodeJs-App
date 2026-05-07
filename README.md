@@ -1,4 +1,4 @@
-# Video Content App - CI/CD Demonstration
+# CI/CD NodeJs app
 
 This repository contains a simple, premium-looking Node.js application built with Express. It serves as a demonstration for implementing a complete CI/CD pipeline using Docker and GitHub Actions, specifically deploying to an AWS EC2 instance.
 
