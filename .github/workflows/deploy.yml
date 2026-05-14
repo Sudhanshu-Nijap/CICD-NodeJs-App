@@ -47,4 +47,4 @@ jobs:
             git config --global user.email "Github@action.com"
             git k8s/deployment.yaml
             git commit -m "chore: udpated docker tag to ${{ github.sha }} [skip ci]"
-            git push 
+            git push
