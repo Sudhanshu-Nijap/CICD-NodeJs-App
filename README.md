@@ -57,11 +57,11 @@ Ensure you have Docker, `kind`, and `kubectl` installed.
 
 3. **Connect ArgoCD to this Repository:**
    Set up an ArgoCD Application to watch the `k8s/` directory of this repository. When you apply the ArgoCD application manifest, it will automatically deploy the `deployment.yaml` and `service.yaml`.
-   
+
 4. **Access the Application:**
    Because the service is a `ClusterIP`, you can access it via port forwarding:
    ```bash
-   kubectl port-forward svc/cicd-app-service 8080:80
+   kubectl port-forward svc/cicd-app-service 3000:3000
    ```
    Open your browser and navigate to `http://localhost:8080`.
 
