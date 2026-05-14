@@ -57,6 +57,7 @@ Ensure you have Docker, `kind`, and `kubectl` installed.
 
 3. **Connect ArgoCD to this Repository:**
    Set up an ArgoCD Application to watch the `k8s/` directory of this repository. When you apply the ArgoCD application manifest, it will automatically deploy the `deployment.yaml` and `service.yaml`.
+   
 4. **Access the Application:**
    Because the service is a `ClusterIP`, you can access it via port forwarding:
    ```bash
