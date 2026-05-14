@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: cicd-app
-        image: amitabhdevops/cicd-app:latest
+        image: amitabhdevops/cicd-app:32cc26cf54ba2db7ddcfaeffb18cd6a5166b01a4
         ports:
         - containerPort: 3000
